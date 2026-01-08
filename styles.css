@@ -2,10 +2,8 @@
   font-family: Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color: #222;
   background-color: #f9f9f9;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +15,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -46,23 +45,48 @@ button {
   cursor: pointer;
   transition: background-color 0.25s;
 }
+
 button:hover {
   background-color: #555;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.recommendation {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.recommendation h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.recommendation h3 {
+  color: #666;
+  font-weight: normal;
+  margin-top: -0.5rem;
+}
+
+.recommendation p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.recommendation button {
+  margin-top: 1rem;
 }
