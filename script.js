@@ -4,8 +4,10 @@ function getRandomBook() {
 
 function displayBook(book) {
   document.getElementById('book-title').textContent = book.title;
-  document.getElementById('book-author').textContent = `by ${book.author}`;
+  document.getElementById('book-author').textContent = `by ${book.authors.join(', ')}`;
+  document.getElementById('book-isbn').textContent = `ISBN: ${book.isbn}`;
   document.getElementById('book-description').textContent = book.description;
+  document.getElementById('book-username').textContent = `Recommended by @${book.username}`;
 }
 
 // Display initial recommendation
