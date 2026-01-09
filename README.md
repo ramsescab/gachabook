@@ -1,12 +1,14 @@
 # Gachabook
 
-a small exercuse which will display a random desugb book on each visit. 
-every book has a short review. anyone can include new book suggestions.
 
-# to-do
+## About the project
+A small project to help people find new designers book curated by everyone. 
+Optionally, every book can include a review.
 
-- [x] review structure
-- [ ] add books information
-- [ ] change style
-- [ ] include guidelines on how to add book recomendations
-- [x] rename project to "gachabook"
+# To-do
+
+- [x] Review structure
+- [ ] Add book information
+- [ ] Change style
+- [ ] Include guidelines on how to include books
+- [x] Rename project to "Gachabook"
